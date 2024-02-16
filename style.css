@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #000541, #46c1ff);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.cube {
+  display: flex;
+  flex-direction: column;
+  margin: 120px auto;
+  gap: 25px;
+  width: 300px;
+}
+
+.btn {
+  margin: 0 auto;
+  width: 150px;
+  padding: 15px 0;
+  border-radius: 15px;
+  border: 4px inset rgb(152, 151, 151);
+  background-color: rgb(13, 2, 85);
+  box-shadow: rgb(255, 255, 255) 0 0 15px 3px;
+  font-size: 1.3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: rgb(255, 255, 255) 0 0 10px 2px;
+  cursor: pointer;
+}
+
+img {
+  box-shadow: rgb(251, 247, 148) 0 0 20px 3px;
+  border-radius: 40px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.result {
+  text-align: center;
+  color: white;
+}
+
+.result p {
+  font-size: 1.7rem;
+}
+
+.reset-btn {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #a4a4a4;
+}
