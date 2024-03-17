@@ -27,7 +27,7 @@ btn.addEventListener("click", () => {
   // clicks counter
   clicks += 1;
 
-  // check if clicks are less than 5 and counter is greater than 15
+  // check if clicks are less than 5 and counter is greater than 17
   if (clicks <= 5 && counter >= 17) {
     createParagraph("You won!! :)");
     btn.style.visibility = "hidden";
